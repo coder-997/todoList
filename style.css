@@ -1,6 +1,6 @@
 * {
   margin: 5px;
-  font-size: 30px;
+  font-size: 3z0px;
 }
 body {
   background: url(asoggetti-44oFcp01cVU-unsplash.jpg) no-repeat center center fixed; 
@@ -68,7 +68,7 @@ h1,p,input,button,ul,li{
 }
 .inputContainer{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   gap: 10px;
@@ -82,8 +82,8 @@ h1,p,input,button,ul,li{
 }
 input{
   grid-row: 2fr;
-  grid-column: 1/5;
+  grid-column: 2/6;
 }
 .btn{
-  grid-column: 2/4;
+  grid-column: 3/5;
 }
