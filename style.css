@@ -1,42 +1,37 @@
 * {
-  margin: 10px;
+  margin: 20px;
   font-size: 3z0px;
 }
 body {
-  background: url(asoggetti-44oFcp01cVU-unsplash.jpg) no-repeat center center fixed; 
+  background: url(asoggetti-44oFcp01cVU-unsplash.jpg) no-repeat center center
+    fixed;
   -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-font-family: 'Nerko One', cursive;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Nerko One", cursive;
 }
 .all {
   display: grid;
 }
 .coolTitle {
   text-align: center;
-  font-family: 'Oswald', Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-size: 40px;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
-  text-shadow: 
-    -1px -1px 0 firebrick,
-    -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick,
-    -4px -4px 0 firebrick,
-    -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick,
-    -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey;
 }
 
 .done {
   text-decoration: line-through;
   background-color: rgba(95, 62, 62, 0.486);
-  
+
   border-radius: 10px;
 }
 .item1 {
@@ -48,14 +43,13 @@ font-family: 'Nerko One', cursive;
 li {
   display: flex;
   width: 300px;
-  
 }
-.btn1{
+.btn1 {
   justify-self: right;
   margin: 5px;
   border-radius: 20px;
 }
-.checkB{
+.checkB {
   justify-self: center;
   align-self: center;
   margin: 5px;
@@ -63,27 +57,30 @@ li {
 .delete {
   display: none;
 }
-h1,p,input,button,ul,li{
+h1,
+p,
+input,
+button,
+ul,
+li {
   text-align: center;
 }
-.inputContainer{
+.inputContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   gap: 10px;
-
 }
-.list{
+.list {
   display: grid;
   justify-content: center;
   align-content: center;
-  
 }
-input{
+input {
   grid-row: 2fr;
   grid-column: 2/6;
 }
-.btn{
+.btn {
   grid-column: 3/5;
 }
